@@ -32,9 +32,7 @@ body {
   @include bodyStyle1(
     $fontSize: 15px, $fontWeight: 300, $lineHeight: 1.4em,
     $colorText: #1d1d1d, $colorBackground: #fff);
-}
 
-.container {
   @include sidebarNavContainer(360px);
 }
 
