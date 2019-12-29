@@ -43,10 +43,6 @@ nav {
     $offsetLeft: 45px,
     $colorBg: #f7f7f7,
     $width: 323px);
-
-  #toc {
-    @include sidebarToc();
-  }
 }
 
 #toggle {
